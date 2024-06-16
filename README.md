@@ -15,4 +15,4 @@ Generate a chart showing the counts of good and bad outcomes for the cholesterol
   
   Clean Data: Filter out incorrect data where:Diastolic pressure is higher than systolic. Height is less than the 2.5th percentile or more than the 97.5th percentile. Weight is less than the 2.5th percentile or more than the 97.5th percentile.
   
-  Correlation Matrix: Create and plot a correlation matrix using seaborn's heatmap(). Mask the upper triangle to create a clear visual similar to examples/Figure_2.png.
+  Correlation Matrix: Create and plot a correlation matrix using seaborn's heatmap().
