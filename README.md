@@ -1,7 +1,7 @@
 # Medical Data Visualizer
 This project involves analyzing and visualizing medical examination data to identify patterns and correlations. The visualizations include categorical plots and a heatmap to better understand the relationships between various health indicators and cardiovascular disease.
 
-# Tasks
+## Tasks
 1. Create a Chart of Good and Bad Outcomes
 Generate a chart showing the counts of good and bad outcomes for the cholesterol, gluc, alco, active, and smoke variables for patients with cardio=1 and cardio=0 in different panels.
 
