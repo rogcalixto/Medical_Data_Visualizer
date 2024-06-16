@@ -8,10 +8,11 @@ Generate a chart showing the counts of good and bad outcomes for the cholesterol
 2. Data Processing and Visualization in medical_data_visualizer.py
    
   Add Overweight Column: Calculate BMI and determine if a person is overweight. Use 0 for NOT overweight and 1 for overweight.
+  
   Normalize Data: Convert data such that 0 is always good and 1 is always bad for cholesterol and gluc.
+  
   Categorical Plot: Convert data into long format and create a chart using seaborn's catplot(). Split the dataset by cardio to create one chart for each cardio value.
-  Clean Data: 
-    Filter out incorrect data where:Diastolic pressure is higher than systolic.
-    Height is less than the 2.5th percentile or more than the 97.5th percentile.
-    Weight is less than the 2.5th percentile or more than the 97.5th percentile.
+  
+  Clean Data: Filter out incorrect data where:Diastolic pressure is higher than systolic. Height is less than the 2.5th percentile or more than the 97.5th percentile. Weight is less than the 2.5th percentile or more than the 97.5th percentile.
+  
   Correlation Matrix: Create and plot a correlation matrix using seaborn's heatmap(). Mask the upper triangle to create a clear visual similar to examples/Figure_2.png.
